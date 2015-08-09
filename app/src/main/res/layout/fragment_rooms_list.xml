@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.sagikirma.chat_rooms.Map_and_RoomsList.RoomsListFragment">
+
+    <ListView
+        android:id="@+id/lstMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+        android:layout_weight="10"/>
+    <Button
+        android:id="@+id/recom_room_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recomRoom"
+        android:gravity="left"
+        android:layout_weight="1"/>
+
+</LinearLayout>

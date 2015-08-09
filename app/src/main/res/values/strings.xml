@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Chat_rooms</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_version">Get version</string>
+    <string name="title_activity_google__api_">Google_API_Activity</string>
+    <string name="title_activity_main_display">MainDisplayActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="hardCodedRooms">
+        <item>Shani</item>
+        <item>Sagi</item>
+        <item>Eyal</item>
+    </string-array>
+    <string name="title_activity_chat_room">ChatRoomActivity</string>
+    <string name="title_activity_map_fragment">Map</string>
+    <string name="add_channel">Create new room</string>
+    <string name="title_activity_create_new_room">CreateNewRoom</string>
+    <string name="EnterRoomName">Pleasr enter the room name</string>
+    <string name="here">Here</string>
+    <string name="ok">Ok</string>
+    <string name="channel_added_success">The channel added successfully</string>
+    <string name="channel_didnt_added_success">Failed to add the Channel</string>
+    <string name="EnterRoomID">Enter the room ID</string>
+    <string name="id_here">ID Here</string>
+    <string name="channel_list">Rooms List</string>
+    <string name="request_sent">Your request was sent to the server</string>
+    <string name="Join_channel">Join Channel</string>
+    <string name="Leave_channel">Leave channel</string>
+    <string name="leave_room">Leave the Room ?</string>
+    <string name="join_room">Join the Room ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="recomRoom">recommendations Room</string>
+    <string name="title_activity_recommendation_room">RecommendationRoomActivity</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.sagikirma.chat_rooms.Map_and_RoomsList.CreateNewRoom">
+
+    <TextView android:text="@string/EnterRoomName" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomName"
+        android:text="@string/here"
+        android:layout_below="@+id/textView"
+        android:paddingBottom="30dp"/>
+
+    <TextView android:text="@string/EnterRoomID" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_room_id"
+        android:text="@string/id_here" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:id="@+id/ok_new_room_button"/>
+
+</LinearLayout>
